@@ -7,6 +7,6 @@ public class FrontendController {
 
     @GetMapping("/")
     public String home() {
-        return "redirect:/index.html";  // / pe index.html khulega
+        return "forward:/index.html";  // / pe index.html khulega
     }
 }
