@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bike ShowRoom</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bike ShowRoom</h1>
+
+        <form id="bikeForm">
+            <input type="text" id="brand" placeholder="Brand" required>
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="number" id="speed" placeholder="Average Speed" required>
+            <input type="number" id="price" placeholder="Price" required step="0.01">
+            <button type="submit">Add Bike</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Brand</th>
+                    <th>Name</th>
+                    <th>Speed</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody id="bikeTableBody">
+            </tbody>
+        </table>
+    </div>
+
+
+   <script src="/js/script.js"></script>
+</body>
+</html>
